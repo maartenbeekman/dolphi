@@ -20,6 +20,13 @@ SSH into the machine and run the following to extend HD space, change the defaul
 sudo raspi-config
 
 3. Prepare NMEA connection
+
 4. Connect NMEA USB to Raspberry Pi
+
 5. Prepare Bluetooth dongle
+
 6. Connect Bluetooth dongle and broadcast NMEA data
+
+7. Connect smart phone to Raspberry Pi bluetooth
+
+8. Run smart watch app to display NMEA information
