@@ -23,7 +23,10 @@ Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
 SSH into the machine and run the following to extend HD space, change the default password and change the local timezone: sudo raspi-config
 
 3. Prepare NMEA connection
-Install Kplex
+Build and install canboat https://github.com/canboat/canboat/wiki/Building
+nmea0183-signalk?
+
+Install Kplex?
 
 4. Connect NMEA USB to Raspberry Pi
 
@@ -33,4 +36,4 @@ Install Kplex
 
 7. Connect smart phone to Raspberry Pi bluetooth
 
-8. Run smart watch app to display NMEA information
+8. Run smart phone app to display multiplexed NMEA information
