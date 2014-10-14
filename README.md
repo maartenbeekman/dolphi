@@ -9,7 +9,8 @@ At the moment of writing this, no code has been submitted yet. Please follow the
 
 Requirements
 ============
-- Raspberry Pi or Raspberry (model A, B or B+)
+- Raspberry Pi or Raspberry (model A, B or B+) and power supply
+- SD card
 - Raspberry compatible Bluetooth dongle
 - Instrument with NMEA USB output
 
