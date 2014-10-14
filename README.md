@@ -23,6 +23,7 @@ Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
 SSH into the machine and run the following to extend HD space, change the default password and change the local timezone: sudo raspi-config
 
 3. Prepare NMEA connection
+Install Kplex
 
 4. Connect NMEA USB to Raspberry Pi
 
