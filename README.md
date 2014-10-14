@@ -20,6 +20,7 @@ Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
 
 2. Basic Raspbian configuration
 SSH into the machine and run the following to extend HD space, change the default password and change the local timezone:
+
 sudo raspi-config
 
 3. Prepare NMEA connection
