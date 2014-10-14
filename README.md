@@ -12,7 +12,7 @@ Requirements
 - Raspberry Pi or Raspberry (model A, B or B+) and power supply
 - SD card
 - Raspberry compatible Bluetooth dongle
-- Instrument with NMEA USB output
+- Serial to USB converter with NMEA output on instrument
 
 Instructions
 ============
