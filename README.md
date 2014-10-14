@@ -7,11 +7,12 @@ For more information about the dolphi project, please visit the project wiki at 
 
 At the moment of writing this, no code has been submitted yet. Please follow the instructions to set up the dolphi project:
 
-Requirements:
+REQUIREMENTS:
 - Raspberry Pi or Raspberry (model A, B or B+)
 - Raspberry compatible Bluetooth dongle
 - Instrument with NMEA USB output
 
+INSTRUCTIONS:
 1. Download and install Raspbian
 Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
 
