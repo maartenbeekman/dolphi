@@ -1,9 +1,9 @@
-dolphi
+Hubby
 ======
 
-Dolphi is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches.
+Hubby is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches.
 
-For more information about the dolphi project, please visit the project wiki at https://github.com/maartenbeekman/dolphi/wiki
+For more information about the Hubby project, please visit the project wiki at https://github.com/maartenbeekman/pi-hubby/wiki
 
 At the moment of writing this, no code has been submitted yet. Please follow the instructions to set up the dolphi project:
 
@@ -14,8 +14,8 @@ Requirements
 - Raspberry compatible Bluetooth dongle
 - Serial to USB converter with NMEA output on instrument
 
-Instructions
-============
+(Draft) Instructions
+====================
 1. Download and install Raspbian
 Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
 
@@ -24,9 +24,8 @@ SSH into the machine and run the following to extend HD space, change the defaul
 
 3. Prepare NMEA connection
 Build and install canboat https://github.com/canboat/canboat/wiki/Building
-nmea0183-signalk?
-
-Install Kplex?
+# nmea0183-signalk?
+# Install Kplex?
 
 4. Connect NMEA USB to Raspberry Pi
 
