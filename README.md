@@ -1,7 +1,7 @@
 Hubby
 ======
 
-Hubby is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches.
+Hubby is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches. Sensoric data is irrespective of its manufacturer / supplier and the first data will be gathered through NMEA 0183.
 
 For more information about the Hubby project, please visit the project wiki at https://github.com/maartenbeekman/pi-hubby/wiki
 
