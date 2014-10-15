@@ -5,22 +5,22 @@ Hubby is an open project, aiming to build a device which gathers all sensoric da
 
 For more information about the Hubby project, please visit the project wiki at https://github.com/maartenbeekman/pi-hubby/wiki
 
-At the moment of writing this, no code has been submitted yet. Please follow the instructions to set up the dolphi project:
+At the moment of writing this, no code has been submitted yet. Please follow the (draft) instructions to set up the Hubby project:
 
 Requirements
 ============
 - Raspberry Pi or Raspberry (model A, B or B+) and power supply
-- SD card
+- SD card (8GB is recommended)
 - Raspberry compatible Bluetooth dongle
 - Serial to USB converter with NMEA output on instrument
 
 (Draft) Instructions
 ====================
 1. Download and install Raspbian
-Download the latest version of Raspbian at http://www.raspberrypi.org/downloads/
+Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk.
 
 2. Basic Raspbian configuration
-SSH into the machine and run the following to extend HD space, change the default password and change the local timezone: sudo raspi-config
+Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend HD space, change the default password and change the local timezone: sudo raspi-config
 
 3. Prepare NMEA connection
 Build and install canboat https://github.com/canboat/canboat/wiki/Building
