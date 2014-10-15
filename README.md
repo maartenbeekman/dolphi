@@ -20,9 +20,12 @@ Requirements
 Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk.
 
 2. Basic Raspbian configuration
-Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend HD space, change the default password and change the local timezone: sudo raspi-config
+Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend file system, change the default password and change the local timezone: sudo raspi-config
 
 3. Prepare NMEA connection
+Install gpsd and libgps20
+Install python-gps
+
 Build and install canboat https://github.com/canboat/canboat/wiki/Building
 nmea0183-signalk?
 Install Kplex?
