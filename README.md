@@ -24,8 +24,8 @@ Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run
 
 3. Prepare NMEA connection
 Build and install canboat https://github.com/canboat/canboat/wiki/Building
-# nmea0183-signalk?
-# Install Kplex?
+nmea0183-signalk?
+Install Kplex?
 
 4. Connect NMEA USB to Raspberry Pi
 
