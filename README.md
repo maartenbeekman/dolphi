@@ -1,11 +1,11 @@
-Hubby
+Hubster
 ======
 
-Hubby is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches. Sensoric data is irrespective of its manufacturer / supplier and the first data will be gathered through NMEA 0183.
+Hubster is an open project, aiming to build a device which gathers all sensoric data on a yacht and broadcasts to personal devices such as smart phones, tablets and smart watches. Sensoric data is irrespective of its manufacturer / supplier and the first data will be gathered through NMEA 0183.
 
-For more information about the Hubby project, please visit the project wiki at https://github.com/maartenbeekman/pi-hubby/wiki
+For more information about the Hubster project, please visit the project wiki at https://github.com/maartenbeekman/pi-hubster/wiki
 
-At the moment of writing this, no code has been submitted yet. Please follow the (draft) instructions to set up the Hubby project:
+At the moment of writing this, no code has been submitted yet. Please follow the (draft) instructions to set up the Hubster project:
 
 Requirements
 ============
