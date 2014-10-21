@@ -22,8 +22,27 @@ Download and install the latest version of Raspbian at http://www.raspberrypi.or
 2. Basic Raspbian configuration
 Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend file system, change the default password and change the local timezone: sudo raspi-config
 
-3. Prepare NMEA connection
-Install gpsd, libgps20 and python-gps
+3. Update and upgrade Raspbian
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+
+4. Set up an Apache webserver with PHP support
+sudo apt-get install apache2
+sudo apt-get install php5 libapache2-mod-php5 -y
+
+5. Prepare NMEA connection
+sudo apt-get install gpsd, libgps20 and python-gps
+sudo modprobe ipv6
+add user pi to dialout group
+
+wget kplex
+nano /etc/kplex.conf
+uncomment everything
+
+Download a NMEA logfile from the web using wget
+gpsfake xxxx.log
+
 
 Build and install canboat https://github.com/canboat/canboat/wiki/Building
 nmea0183-signalk?
