@@ -23,8 +23,11 @@ Download and install the latest version of Raspbian at http://www.raspberrypi.or
 Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend file system, change the default password and change the local timezone: sudo raspi-config
 
 3. Update and upgrade Raspbian
+
 ```sudo apt-get update
+
 ```sudo apt-get upgrade
+
 ```sudo apt-get autoremove
 
 4. Set up an Apache webserver with PHP support
