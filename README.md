@@ -53,12 +53,12 @@ Build and install canboat https://github.com/canboat/canboat/wiki/Building
 nmea0183-signalk?
 Install Kplex?
 
-4. Connect NMEA USB to Raspberry Pi
+6. Connect NMEA USB to Raspberry Pi
 
-5. Prepare Bluetooth dongle
+7. Prepare Bluetooth dongle
 
-6. Connect Bluetooth dongle and broadcast NMEA data
+8. Connect Bluetooth dongle and broadcast NMEA data
 
-7. Connect smart phone to Raspberry Pi bluetooth
+9. Connect smart phone to Raspberry Pi bluetooth
 
-8. Run smart phone app to display multiplexed NMEA information
+10. Run smart phone app to display multiplexed NMEA information
