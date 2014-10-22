@@ -35,14 +35,18 @@ sudo apt-get install apache2
 sudo apt-get install php5 libapache2-mod-php5 -y
 ```
 
-5. Prepare NMEA connection
+5. Prepare NMEA connection using fake GPS
 ```
 sudo apt-get install gpsd, libgps20 and python-gps
 sudo modprobe ipv6
 add user pi to dialout group
+
 wget kplex
 nano /etc/kplex.conf
 uncomment everything
+
+sudo apt-get install nmap
+
 ```
 
 Download a NMEA logfile from the web using wget
