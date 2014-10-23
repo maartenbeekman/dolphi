@@ -16,11 +16,15 @@ Requirements
 
 (Draft) Instructions
 ====================
-1. Download and install Raspbian
+1. Download and install Raspbian on a Raspberry Pi
 Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk.
 
 2. Basic Raspbian configuration
-Boot up the Raspberry Pi with the prepared SD card, SSH into the machine and run the following to extend file system, change the default password and change the local timezone: sudo raspi-config
+Start up the Raspberry Pi with the prepared SD card and SSH into the machine. Do basic Raspbian configuration: 
+```
+sudo raspi-config
+```
+Extend the file system, change the default password, change the local timezone and change the host name to Hubster. 
 
 3. Update and upgrade Raspbian
 ```
@@ -35,25 +39,30 @@ sudo apt-get install apache2
 sudo apt-get install php5 libapache2-mod-php5 -y
 ```
 
-5. Prepare NMEA connection using fake GPS
+5. Set up fake GPS connection (until you have real connection on a yacht)
 ```
 sudo apt-get install gpsd, libgps20 and python-gps
 sudo modprobe ipv6
 add user pi to dialout group
+```
+Please not that probing ipv6 is a necessary evil. Not sure yet how to get rid of the ipv6 error message if the module is not loaded.
 
+6. Install and setup kplex to multiplex through tcp
+```
 wget kplex
 nano /etc/kplex.conf
-uncomment everything
+```
+Uncomment the settings at the bottom of the file.
 
+If you wish to see which ports your machine is listening to, install nmap
+```
 sudo apt-get install nmap
-
 ```
 
-Download a NMEA logfile from the web using wget
+Download a NMEA logfile from the web using wget and run gpsfake. Then run kplex and check on another device (e.g. smartphone, tablet) if you receive the gps data.
+```
 gpsfake xxxx.log
-
-
-Build and install canboat https://github.com/canboat/canboat/wiki/Building
+```
 nmea0183-signalk?
 Install Kplex?
 
