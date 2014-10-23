@@ -16,17 +16,17 @@ Requirements
 
 (Draft) Instructions
 ====================
-1. Download and install Raspbian on a Raspberry Pi
+# 1. Download and install Raspbian on a Raspberry Pi
 Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk.
 
-2. Basic Raspbian configuration
+# 2. Basic Raspbian configuration
 Start up the Raspberry Pi with the prepared SD card and SSH into the machine. Do basic Raspbian configuration: 
 ```
 sudo raspi-config
 ```
 Extend the file system, change the default password, change the local timezone and change the host name to Hubster. 
 
-3. Update and upgrade Raspbian
+# 3. Update and upgrade Raspbian
 ```
 sudo apt-get update
 sudo apt-get upgrade
