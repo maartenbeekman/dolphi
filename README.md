@@ -70,6 +70,7 @@ Check on another device (e.g. smartphone, tablet) if you receive the gps data. D
 
 ## 8. Prepare Bluetooth dongle
 http://www.instructables.com/id/Turn-your-Raspberry-Pi-into-a-Portable-Bluetooth-A/step3/Install-prerequisite-packages/
+http://computers.tutsplus.com/articles/using-a-raspberry-pi-as-an-airplay-receiver--mac-54316
 
 ## 9. Set up Bluetooth access point
 
