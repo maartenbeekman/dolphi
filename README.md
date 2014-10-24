@@ -69,6 +69,7 @@ sudo apt-get install nmap
 Check on another device (e.g. smartphone, tablet) if you receive the gps data. Download a GPS app, change the settings to your Raspberry Pi's IP address and set port to 11010.
 
 ## 8. Prepare Bluetooth dongle
+sudo apt-get install bluez pulseaudio-module-bluetooth python-gobject python-gobject-2 bluez-tools
 
 ## 9. Set up Bluetooth access point
 
