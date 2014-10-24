@@ -20,17 +20,14 @@ Requirements
 Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk. At the moment of writing, I am using Debian Wheezy from September 2014.
 
 ## 2. Basic Raspbian configuration
-Start up the Raspberry Pi with the prepared SD card, open a terminal, find the Raspberry Pi's IP address and SSH into the machine. Do basic Raspbian configuration: 
+Start up the Raspberry Pi with the prepared SD card, open a terminal, find the Raspberry Pi's IP address and SSH into the machine.
 ```
-sudo raspi-config
+git clone https://github.com/maartenbeekman/pi-hubster.git
 ```
-Extend the file system, change the default password, change the local timezone and change the host name to Hubster. 
-
-## 3. Update and upgrade Raspbian
+## 3. Set up Hubster
 ```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get autoremove
+chmod 775 pi-hubster/setup_hubster.sh
+./pi-hubster/setup_hubster
 ```
 
 ## 4. Set up an Apache webserver with PHP support
