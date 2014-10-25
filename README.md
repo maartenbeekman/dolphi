@@ -32,11 +32,9 @@ git clone https://github.com/maartenbeekman/pi-hubster.git
 chmod 775 pi-hubster/setup_hubster.sh
 ./pi-hubster/setup_hubster
 ```
-
-## 4. Set up an Apache webserver with PHP support
+Download a sample GPS log file. 
 ```
-sudo apt-get install apache2
-sudo apt-get install php5 libapache2-mod-php5 -y
+wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
 ```
 
 ## 5. Set up fake GPS connection (until you have real connection on a yacht) using a NMEA logfile
