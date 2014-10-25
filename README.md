@@ -24,7 +24,7 @@ Start up the Raspberry Pi with the prepared SD card, open a terminal, find the R
 ```
 sudo raspi-config
 ```
-Change the default password, change the hostname. Reboot the Raspberry Pi.
+Change the default password, chang the hostname into Hubster, the local timezone to your location and reboot the Raspberry Pi.
 
 ## 3. Set up Hubster
 ```
@@ -37,13 +37,15 @@ Download a sample GPS log file.
 wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
 ```
 
+ls /dev/pts
+
+
 ## 5. Set up fake GPS connection (until you have real connection on a yacht) using a NMEA logfile
 
 ```
 sudo apt-get install gpsd, libgps20 and python-gps
 add user pi to dialout group
 sudo modprobe ipv6
-wget xxxx.gps
 ```
 Please not that probing ipv6 is a necessary evil. Not sure yet how to get rid of the ipv6 error message if the module is not loaded.
 
@@ -51,11 +53,13 @@ Please not that probing ipv6 is a necessary evil. Not sure yet how to get rid of
 ```
 wget kplex
 ```
-Find which pseudo TTY is used by gpsfake.
+Find which pseudo TTY is used by gpsfake (1 and 2 in this case).
 ```
 ls /dev/pts
 gpsfake -p xxx.gps
 ls /dev/pts
+wget http://www.stripydog.com/download/kplex_1.1-1_armhf.deb
+sudo dpkg -i ./kplex_1.1-1_armhf.deb
 nano /etc/kplex.conf, uncomment lines and change filename to /dev/pts/x
 ```
 
