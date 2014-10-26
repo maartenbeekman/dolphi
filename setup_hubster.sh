@@ -5,7 +5,7 @@ sudo apt-get upgrade -y
 sudo apt-get autoremove
 
 # Download and install gps tools 
-sudo apt-get install gpsd, libgps20 and python-gps
+# sudo apt-get install gpsd libgps20 python-gps -y
 
 if [ ! -f pi-hubster/GPS_20121104_134730.log ]; then
     wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
@@ -23,7 +23,6 @@ fi
 # sudo apt-get install php5 libapache2-mod-php5 -y
 
 # ls /dev/pts
-# gpsfake -p xxx.gps
 # ls /dev/pts
 # nano /etc/kplex.conf, uncomment lines and change filename to /dev/pts/x
 # sudo apt-get install nmap
@@ -33,4 +32,3 @@ fi
 # http://computers.tutsplus.com/articles/using-a-raspberry-pi-as-an-airplay-receiver--mac-54316
 
 # nmea0183-signalk?
-# Install Kplex?
