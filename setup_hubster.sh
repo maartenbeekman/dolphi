@@ -11,6 +11,10 @@ if [ ! -f pi-hubster/GPS_20121104_134730.log ]; then
     wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
 fi
 
+if [ ! -f pi-hubster/kplex_1.1-1_armhf.deb ]; then
+    wget http://www.stripydog.com/download/kplex_1.1-1_armhf.deb
+fi
+
 # hciconfig -a
 # 0x420100
 
@@ -18,8 +22,6 @@ fi
 # sudo apt-get install apache2
 # sudo apt-get install php5 libapache2-mod-php5 -y
 
-# wget xxxx.gps
-# wget kplex
 # ls /dev/pts
 # gpsfake -p xxx.gps
 # ls /dev/pts
