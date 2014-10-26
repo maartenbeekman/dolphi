@@ -1,14 +1,22 @@
+#!/bin/bash
 
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 sudo apt-get autoremove
 
+# Download and install gps tools 
+sudo apt-get install gpsd, libgps20 and python-gps
+
+
+wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
+
+# hciconfig -a
+# 0x420100
+
+# Download and install Apache webserver
 # sudo apt-get install apache2
 # sudo apt-get install php5 libapache2-mod-php5 -y
 
-# sudo apt-get install gpsd, libgps20 and python-gps
-# add user pi to dialout group
-# sudo modprobe ipv6
 # wget xxxx.gps
 # wget kplex
 # ls /dev/pts
