@@ -7,8 +7,9 @@ sudo apt-get autoremove
 # Download and install gps tools 
 sudo apt-get install gpsd, libgps20 and python-gps
 
-
-wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
+if [ ! -f pi-hubster/GPS_20121104_134730.log ]; then
+    wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
+fi
 
 # hciconfig -a
 # 0x420100
