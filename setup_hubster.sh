@@ -15,8 +15,9 @@ if [ ! -f pi-hubster/kplex_1.1-1_armhf.deb ]; then
     wget http://www.stripydog.com/download/kplex_1.1-1_armhf.deb
 fi
 
-# hciconfig -a
-# 0x420100
+sudo dpkg -i ./kplex_1.1-1_armhf.deb
+
+
 
 # Download and install Apache webserver
 # sudo apt-get install apache2
