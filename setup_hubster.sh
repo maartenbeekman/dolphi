@@ -5,7 +5,7 @@ sudo apt-get upgrade -y
 sudo apt-get autoremove
 
 # Download and install gps tools 
-# sudo apt-get install gpsd libgps20 python-gps -y
+sudo apt-get install gpsd libgps20 python-gps -y
 
 if [ ! -f pi-hubster/GPS_20121104_134730.log ]; then
     wget http://www.act-consult.net/Rodhern/FGPSLog/GPS_20121104_134730.log
@@ -17,13 +17,10 @@ fi
 
 sudo dpkg -i ./kplex_1.1-1_armhf.deb
 
-
-
 # Download and install Apache webserver
 # sudo apt-get install apache2
 # sudo apt-get install php5 libapache2-mod-php5 -y
 
-# ls /dev/pts
 # ls /dev/pts
 # nano /etc/kplex.conf, uncomment lines and change filename to /dev/pts/x
 # sudo apt-get install nmap
