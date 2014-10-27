@@ -20,13 +20,12 @@ Requirements
 Download and install the latest version of Raspbian at http://www.raspberrypi.org/downloads/ and prepare the SD disk. At the moment of writing, I am using Debian Wheezy from September 2014.
 
 ## 2. Basic Raspbian configuration
-Start up the Raspberry Pi with the prepared SD card, open a terminal, find the Raspberry Pi's IP address and SSH into the machine. Do basic Raspbian configuration
+Start up the Raspberry Pi with the prepared SD card, open a terminal, find the Raspberry Pi's IP address and SSH into the machine. Do basic Raspbian configuration; change the default password, change the hostname into Hubster, change the local timezone to your location and reboot the Raspberry Pi (should be prompted by Raspi-config.
 ```
 sudo raspi-config
 ```
-Change the default password, chang the hostname into Hubster, the local timezone to your location and reboot the Raspberry Pi.
-
 ## 3. Set up Hubster
+SSH into the Raspberry Pi to setup Hubster. This installs all required packages. 
 ```
 git clone https://github.com/maartenbeekman/pi-hubster.git
 chmod 775 pi-hubster/setup_hubster.sh
