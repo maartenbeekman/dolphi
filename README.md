@@ -33,20 +33,24 @@ chmod 775 pi-hubster/setup_hubster.sh
 ./pi-hubster/setup_hubster
 ```
 ## 4. Set up fake GPS connection (until you have real connection on a yacht) using a NMEA logfile
-Run GPS fake
-Find which pseudo TTY is used by gpsfake (1 and 2 in this case).
+Find which pseudo TTY is used by gpsfake (1 and 2 in this case) and write it down.
 ```
 ls /dev/pts
 gpsfake -p xxx.log
 ls /dev/pts
+```
 nano /etc/kplex.conf, uncomment lines and change filename to /dev/pts/x
 kplex
-```
+
 Check on another device (e.g. smartphone, tablet) if you receive the gps data. Download a GPS app, change the settings to your Raspberry Pi's IP address and set port to 11010.
 
 ## 5. Prepare Bluetooth dongle
 http://www.instructables.com/id/Turn-your-Raspberry-Pi-into-a-Portable-Bluetooth-A/step3/Install-prerequisite-packages/
 http://computers.tutsplus.com/articles/using-a-raspberry-pi-as-an-airplay-receiver--mac-54316
+
+Find which Device Class is used by your Bluetooth device
+hciconfig -a
+0x420100
 
 ## 6. Set up Bluetooth access point
 
